@@ -27,6 +27,7 @@ env/
 .history/
 .idea/
 .vscode/
+.lh
 
 # Runtime artifacts
 artifacts/
