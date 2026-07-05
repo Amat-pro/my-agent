@@ -1,5 +1,26 @@
 # Python Agent 应用总体架构设计
 
+**文档标识：** `SPEC-2026-07-05-python-agent-application-design`
+
+**文档类型：** 总体设计规格说明。
+
+**文档作用：** 定义 Python Agent 应用的总体架构、模块边界、技术选型和演进方向。
+
+**下游引用：**
+
+- 阶段拆解文档：
+  `docs/superpowers/plans/2026-07-05-python-agent-application-phases.md`
+- 阶段 1 执行计划：
+  `docs/superpowers/plans/2026-07-05-agent-runtime-execution-loop.md`
+
+**引用关系：**
+
+```text
+SPEC 总体设计
+  -> PHASES 落地阶段拆解
+    -> PLAN 阶段执行计划
+```
+
 > 文档日期：2026-07-05
 >
 > 适用对象：希望基于 Python 从 0 到 1 搭建 Agent 应用的个人开发者、小团队或内部平台研发
